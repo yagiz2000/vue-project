@@ -23,20 +23,26 @@ export default {
 <style scoped>
 .card {
   list-style: none;
-  float: left;
   margin: 20px;
   max-width: 10000px;
+  float:left;
   max-height: 10000px;
   border-style: solid;
   border-color:mediumpurple;
   border-width: 10px;
   border-radius: 20px;
 }
+#not-found{
+  font-size: 110%;
+}
 .card-img-top {
   border-radius: 20px;
 }
 .cards {
-  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
 }
 #not-found{
   font-size: 110%;
